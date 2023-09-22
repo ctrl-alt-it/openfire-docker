@@ -8,5 +8,7 @@ RUN chmod +x entrypoint.sh && apt-get update && apt-get install -y curl default-
 EXPOSE 9090
 EXPOSE 9091
 EXPOSE 5222
+EXPOSE 7070
+EXPOSE 7443
 
 CMD ["/app/entrypoint.sh"]
